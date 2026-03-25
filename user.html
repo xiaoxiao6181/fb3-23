@@ -253,6 +253,7 @@
                                 return;
                             } else {
 								console.log(t)
+								localStorage.setItem('preferredLanguage',t)
                         		I18n.changeLanguage(t)
                                 $('#langlist').fadeToggle();
 								location.reload();
