@@ -365,6 +365,16 @@
 					console.log('开始执行...');
 					let userInfo=await getUserInfo();
 					$(".totalMoney").text(userInfo.money)
+
+				(async function() {
+					console.log('开始执行...');
+					let userInfo=await getUserInfo();
+					$(".totalMoney").text(userInfo.money)
+					// 总余额加上 $
+    $(".totalMoney").first().text(userInfo.money + ' $');
+
+    // 现金钱包右边换算金额也加上 $
+    $(".contentlist .totalMoney").last().text(userInfo.money + ' $');
 					
 					
 				})();
