@@ -46,6 +46,7 @@
       "paymentPasswordPlaceholder": "Payment Password",
       "confirmPaymentPassword": "Confirm Password:",
       "confirmPaymentPasswordPlaceholder": "Re-enter Payment Password",
+	  "registerSuccess":"Registration Successful",
       "idCard": "ID Card:",
       "idCardPlaceholder": "Please enter ID card number",
       "referralCode": "Referral Code:",
