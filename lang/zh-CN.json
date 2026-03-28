@@ -69,6 +69,7 @@
     "paymentPasswordPlaceholder": "支付密码",
     "confirmPaymentPassword": "确认密码",
     "confirmPaymentPasswordPlaceholder": "再次输入支付密码",
+	"registerSuccess":"注册成功",
     "idCard": "身份证",
     "idCardPlaceholder": "请输入身份证号码",
     "referralCode": "推荐码",
