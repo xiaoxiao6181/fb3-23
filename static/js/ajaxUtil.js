@@ -194,3 +194,13 @@ window.AjaxUtil = (function($) {
 // 	$(".f_mine_header").attr('src',res.data.app_img.replaceAll('/upload/', baseConfig.baseUrl + '/upload/'))
 // 	console.log(res.data.app_img.replaceAll('/upload/', baseConfig.baseUrl + '/upload/'))
 // })
+
+if(location.pathname.search('login.html')<0||location.pathname.search('reg.html')<0){
+    setInterval(function(){
+        AjaxUtil.get('/index/login/uplastOptionTime?loadingHide=true').then(res => {
+    
+    
+    	
+        })
+    },1000*60)
+}
