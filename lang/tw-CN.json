@@ -69,6 +69,7 @@
     "paymentPasswordPlaceholder": "支付密碼",
     "confirmPaymentPassword": "確認密碼",
     "confirmPaymentPasswordPlaceholder": "再次輸入支付密碼",
+	"registerSuccess":"註冊成功",
     "idCard": "身份證",
     "idCardPlaceholder": "請輸入身份證號碼",
     "referralCode": "推薦碼",
